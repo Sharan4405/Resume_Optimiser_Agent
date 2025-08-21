@@ -1,0 +1,40 @@
+{
+  "name": "resume_optimiser_agent",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sharan4405/Resume_Optimiser_Agent.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sharan4405/Resume_Optimiser_Agent/issues"
+  },
+  "homepage": "https://github.com/Sharan4405/Resume_Optimiser_Agent#readme",
+  "dependencies": {
+    "@langchain/core": "^0.3.72",
+    "@langchain/groq": "^0.2.3",
+    "@langchain/langgraph": "^0.4.6",
+    "@langchain/openai": "^0.6.9",
+    "axios": "^1.11.0",
+    "cheerio": "^1.1.2",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "multer": "^2.0.2",
+    "pdf-parse": "^1.1.1",
+    "pdfjs-dist": "^5.4.54",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
